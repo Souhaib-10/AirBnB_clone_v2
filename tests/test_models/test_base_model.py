@@ -38,6 +38,21 @@ class TestBaseModel(unittest.TestCase):
         self.assertIn('created_at', model_dict)
         self.assertIn('updated_at', model_dict)
 
+    def test_instance_creation_from_dict(self):
+        '''Test instance creation from dictionary representation'''
+        my_model = BaseModel()
+        my_model.name = "My_First_Model"
+        my_model.my_number = 89
+        my_model_dict = my_model.to_dict()
+        print("to_ dict")
+        print(my_model_dict)
+        my_new_model = BaseModel(**my_model_dict)
+        self.assertEqual(my_model.id, my_new_model.id)
+        self.assertEqual(my_model.name, my_new_model.name)
+        self.assertEqual(my_model.my_number, my_new_model.my_number)
+        self.assertEqual(my_model.created_at, my_new_model.created_at)
+        self.assertEqual(my_model.updated_at, my_new_model.updated_at)
+
 
 if __name__ == '__main__':
     unittest.main()
