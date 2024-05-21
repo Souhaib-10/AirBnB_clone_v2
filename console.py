@@ -2,6 +2,7 @@
 ''' Script console for command intrepreter'''
 import cmd
 
+
 class HBNBCommand(cmd.Cmd):
     """Command interpreter for HBNB"""
     prompt = '(hbnb) '
@@ -29,6 +30,6 @@ class HBNBCommand(cmd.Cmd):
         else:
             super().do_help(arg)
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
-
