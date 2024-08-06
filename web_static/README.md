@@ -1,8 +1,8 @@
-#0x01. AirBnB clone - Web static
-##Concepts
-For this project, we expect you to look at these concepts:
-    *HTML/CSS
-    *The trinity of front-end quality
+# 0x01. AirBnB clone - Web static
+## Concepts
+* For this project, we expect you to look at these concepts:
+    * HTML/CSS
+    * The trinity of front-end quality
 ## Resources
 * **Learn to Code HTML & CSS:** [https://developer.mozilla.org/en-US/docs/Learn](https://developer.mozilla.org/en-US/docs/Learn)
 * **Inline Styles in HTML:** [https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)  
