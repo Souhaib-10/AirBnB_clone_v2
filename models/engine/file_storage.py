@@ -41,4 +41,3 @@ class FileStorage:
                     class_name = value["__class__"]
                     obj = class_dict[class_name](**value)
                     type(self).__objects[key] = obj
-                    

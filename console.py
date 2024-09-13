@@ -27,5 +27,6 @@ class HBNBCommand(cmd.Cmd):
         """Help information for the EOF command"""
         print("EOF command to exit the program")
 
+
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
